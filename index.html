@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrepPortal | Premium Job & Interview Prep</title>
+    <meta name="description"
+        content="All-in-one platform for job searching and interview preparation. DSA, Aptitude, Technical, and HR preparation materials.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#" class="logo" id="nav-home">
+                    <span class="logo-icon">P</span>
+                    <span class="logo-text">PrepPortal</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link" data-page="home">Home</a>
+                    <a href="#jobs" class="nav-link" data-page="jobs">Job Portal</a>
+                    <a href="#prep" class="nav-link" data-page="prep">Preparation</a>
+                    <a href="#dsa" class="nav-link" data-page="dsa">DSA Sheet</a>
+                    <a href="#companies" class="nav-link" data-page="companies">Companies</a>
+                </div>
+                <div class="nav-actions">
+                    <button id="theme-toggle" class="btn btn-outline" title="Toggle Theme">
+                        <i data-lucide="moon" id="theme-icon"></i>
+                    </button>
+                    <button class="btn btn-outline">Login</button>
+                    <button class="btn btn-primary">Sign Up</button>
+                </div>
+                <button class="mobile-menu-btn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main id="main-content">
+            <!-- Content will be injected here by app.js -->
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-info">
+                    <div class="logo">
+                        <span class="logo-icon">P</span>
+                        <span class="logo-text">PrepPortal</span>
+                    </div>
+                    <p>Building the future of recruitment and preparation.</p>
+                </div>
+                <div class="footer-links-grid">
+                    <div class="footer-col">
+                        <h4>Platform</h4>
+                        <a href="#jobs">Jobs</a>
+                        <a href="#prep">Preparation</a>
+                        <a href="#dsa">DSA Sheets</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Resources</h4>
+                        <a href="#">Notes</a>
+                        <a href="#">Practice</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contact</h4>
+                        <a href="#">Support</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Privacy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 PrepPortal. All rights reserved.
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
